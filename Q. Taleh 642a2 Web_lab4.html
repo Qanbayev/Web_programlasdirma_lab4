@@ -1,0 +1,22 @@
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script>
+let x = parseInt(prompt("X= "));
+let y = parseInt(prompt("Y= "));
+let z = parseInt(prompt("Z= "));
+let min = x;
+let max = y;
+
+for(let say=1;say<=3;say++){
+    if (min>x) {min=x;}
+    if (min>y) {min=y;}
+    if (min>z) {min=z;}
+    if (max<x) {max=x;}
+    if (max<y) {max=y;}
+    if (max<z) {max=z;}
+}
+alert("minumum " + min + "\n maximum " + max);
+
+
+</script>
+</head></html>
